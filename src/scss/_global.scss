@@ -1,0 +1,16 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-text-color;
+}
+
+.section-break {
+  width: 300px;
+  border-bottom: 2px solid $primary-color;
+  @media (min-width: 450px) {
+    width: 80%;
+  }
+}
