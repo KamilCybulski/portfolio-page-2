@@ -3,7 +3,8 @@ import React from 'react';
 import face from '../images/face.jpg'
 
 const About = () => (
-  <div className="aboutme">
+  <div className="aboutme" id="about">
+    <h2>About me</h2>
     <div className="face">
       <img src={face} alt="Just my face yo"/>
     </div>
