@@ -2,9 +2,9 @@ import React from 'react';
 
 const Button = ({ text }) => (
   <a href="#">
-  <div className="social-btn">
-  {text}
-  </div>
+    <div className="social-btn">
+      {text}
+    </div>
   </a>
 )
 
